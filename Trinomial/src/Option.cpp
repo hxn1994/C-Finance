@@ -12,7 +12,7 @@ double EurOption::PriceByTrinomial(TriModel Model, double T)
    double qu = Model.RiskNeutProb_up();
    double qd = Model.RiskNeutProb_down();
    double qm = 1 - qu - qd;
-   double Price[2*N+1];
+   double Price[2*N-1];
 
    int j;
    for (int i = 2*N-1, j = 0;j <= 2*N;i--,j++)

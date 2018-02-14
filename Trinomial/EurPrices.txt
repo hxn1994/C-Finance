@@ -1,0 +1,41 @@
+Test the program:
+European call option price = 8.5115
+
+European put option price = 5.56932
+
+There are a series of option prices following:
+N = 100 and T = 1
+
+Call Option: 24.5444
+
+Put Option: 0.0481518
+
+
+N = 200 and T = 1
+
+Call Option: 24.5444
+
+Put Option: 0.0481518
+
+
+N = 300 and T = 1
+
+Call Option: 24.5444
+
+Put Option: 0.0481518
+
+
+N = 400 and T = 1
+
+Call Option: 24.5444
+
+Put Option: 0.0481518
+
+
+N = 500 and T = 1
+
+Call Option: 24.5444
+
+Put Option: 0.0481518
+
+

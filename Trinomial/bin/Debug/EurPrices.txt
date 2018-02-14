@@ -13,29 +13,29 @@ Put Option: 0.0481518
 
 N = 200 and T = 1
 
-Call Option: 25.2474
+Call Option: 24.5444
 
-Put Option: 0.0241423
+Put Option: 0.0481518
 
 
 N = 300 and T = 1
 
-Call Option: 25.5628
+Call Option: 24.5444
 
-Put Option: 0.0161133
+Put Option: 0.0481518
 
 
 N = 400 and T = 1
 
-Call Option: 25.7519
+Call Option: 24.5444
 
-Put Option: 0.0120929
+Put Option: 0.0481518
 
 
 N = 500 and T = 1
 
-Call Option: 25.8814
+Call Option: 24.5444
 
-Put Option: 0.00967857
+Put Option: 0.0481518
 
 

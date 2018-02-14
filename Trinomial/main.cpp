@@ -48,15 +48,13 @@ int main()
     {
         fileout << "N = " << 100*(i+1) << " and T = 1" << endl;
         fileout << endl;
-        fileout << "Call Option: "<< Options[0].PriceByTrinomial(Model,1) << endl;
+        fileout << "Call Option: "<< Options[i].PriceByTrinomial(Model,1) << endl;
         fileout << endl;
-        fileout << "Put Option: "<< Options0[0].PriceByTrinomial(Model,1) << endl;
+        fileout << "Put Option: "<< Options0[i].PriceByTrinomial(Model,1) << endl;
         fileout << endl << endl;
     }
 
     fileout.close();
-
-
 
     return 0;
 }

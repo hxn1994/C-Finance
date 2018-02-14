@@ -13,14 +13,14 @@ int main()
 
    TriModel Model(100,0.2,0.03);
 
-   fileout << "Test the program:\n";
+   cout << "Test the program:\n";
    Call Option1(100.0,1);
-   fileout << "European call option price = "
+   cout << "European call option price = "
         << Option1.PriceByTrinomial(Model,1)
         << endl << endl;
 
    Put Option2(100.0,1);
-   fileout << "European put option price = "
+   cout << "European put option price = "
         << Option2.PriceByTrinomial(Model,1)
         << endl << endl;
 

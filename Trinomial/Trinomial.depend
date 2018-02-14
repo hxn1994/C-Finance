@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1518623845 source:g:\code\trinomial\trinomial\main.cpp
+1518627442 source:g:\code\trinomial\trinomial\main.cpp
 	<iostream>
 	"TriModel01.h"
 	"Option.h"
@@ -16,7 +16,7 @@
 1518554921 g:\code\trinomial\trinomial\include\option.h
 	"../TriModel01.h"
 
-1518569632 source:g:\code\trinomial\trinomial\src\option.cpp
+1518627353 source:g:\code\trinomial\trinomial\src\option.cpp
 	"Option.h"
 	"../TriModel01.h"
 	<iostream>

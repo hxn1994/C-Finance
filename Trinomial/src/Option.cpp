@@ -12,24 +12,15 @@ double EurOption::PriceByTrinomial(TriModel Model, double T)
    double qu = Model.RiskNeutProb_up();
    double qd = Model.RiskNeutProb_down();
    double qm = 1 - qu - qd;
-   double Price[2*N-1];
+   double Price[2*N+1];
 
    int j;
-   for (int i = 2*N-1, j = 0;j <= 2*N;i--,j++)
+   for (int i = N, j = 0;j <= 2*N;i--,j++)
    {
-       if (j < N-1)
-       {
-           int a = (-1)*i;
-           Price[j] = Payoff(Model.S(N,a));
-       }
-       else
-       {
            Price[j] = Payoff(Model.S(N,i));
-       }
-
    }
 
-   for (int n = 2*N-1; n >= 0; n--)
+   for (int n = N; n >= 0; n--)
    {
        for (int i = 0; i < n; i++)
        {
